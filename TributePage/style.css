@@ -2,8 +2,17 @@ body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
 }
-
+main {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
 h1 {
   font-style: italic;
   color: #373fff;
+}
+
+img {
+  width: 500px;
 }
