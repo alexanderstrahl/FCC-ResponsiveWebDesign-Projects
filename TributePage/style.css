@@ -1,26 +1,29 @@
-body {
-  font-family: helvetica, arial, sans-serif;
-  margin: 2em;
-}
-
-h1 {
+h1,h2 {
   font-style: italic;
   background-color: inherit;
-  color: #373fff;
+  color: white;
+  text-align: center;
+  font-family: calibri;
+}
+h3 {
+  font-style: italic;
+  background-color: inherit;
+  color: black;
   text-align: center;
   font-family: calibri;
 }
 img {
-  width: 90%;
+  width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-#main {
+main {
+  font-family: helvetica, arial, sans-serif;
   margin: auto;
-  width: 50%;
-  background-color: black;
+  width: 75%;
+  background-color: #4e5850;
   color: inherit;
   padding-top: 30px;
   padding-bottom: 20%;
@@ -29,10 +32,13 @@ img {
 
 }
 #img-div {
-  width: 50%;
+  width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  background-color: white;
+  padding-top: 15px;
+  padding-bottom: 5px;
 }
 #img-caption {
 
