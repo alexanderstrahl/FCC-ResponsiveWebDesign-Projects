@@ -2,17 +2,47 @@ body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
 }
-main {
-  margin: auto;
-  width: 50%;
-  border: 3px solid green;
-  padding: 10px;
-}
+
 h1 {
   font-style: italic;
+  background-color: inherit;
   color: #373fff;
+  text-align: center;
+  font-family: calibri;
+}
+img {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-img {
-  width: 500px;
+#main {
+  margin: auto;
+  width: 50%;
+  background-color: black;
+  color: inherit;
+  padding-top: 30px;
+  padding-bottom: 20%;
+}
+#title {
+
+}
+#img-div {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#img-caption {
+
+}
+#tribute-info {
+
+}
+#tribute-link {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
