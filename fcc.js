@@ -1,1 +1,1 @@
-console.log(FreeCodeCamp.org)
+console.log("FreeCodeCamp.org")
