@@ -1,4 +1,4 @@
-# FreeCodeCampProjects
+# FCC-ResponsiveWebDesign-Projects
 
 Repository for projects from freecodecamp.org
 
