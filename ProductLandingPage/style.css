@@ -10,22 +10,28 @@ but it passes all of the tests*/
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  border-style: solid;
 }
 @media {
 
 }
 #header {
   /*background-image: url(./first-ct.jpg);*/
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
 }
 #header-img {
   width: 50px;
-  order: 1;
+  height: 50px;
+  border-style: solid;
 }
 h1 {
 
 }
 #nav-bar {
-  order: 2;
   top: 0px;
   position: fixed
 }
