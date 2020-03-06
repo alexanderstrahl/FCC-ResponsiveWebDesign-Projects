@@ -1,7 +1,15 @@
 /*The CSS needs substantial work, lol
 but it passes all of the tests*/
-main {
+#main {
   display: flex;
+  background-color: white;
+  border-color: black;
+  border-radius: 1px;
+  color: inherit;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 @media {
 
@@ -11,17 +19,20 @@ main {
 }
 #header-img {
   width: 50px;
+  order: 1;
 }
 h1 {
 
 }
 #nav-bar {
+  order: 2;
   top: 0px;
   position: fixed
 }
 #video {
 
 }
+/*https://www.youtube.com/watch?v=udxR5rBq_Vg*/
 #form {
 
 }
