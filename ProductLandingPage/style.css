@@ -29,22 +29,23 @@ but it passes all of the tests*/
   border-style: solid;
 }
 h1 {
-
+  border-style: solid;
 }
 #nav-bar {
   top: 0px;
   position: fixed
+  border-style: solid;
 }
 #video {
-
+  border-style: solid;
 }
 /*https://www.youtube.com/watch?v=udxR5rBq_Vg*/
 #form {
-
+  border-style: solid;
 }
 #email {
-
+  border-style: solid;
 }
 #submit {
-
+  border-style: solid;
 }
