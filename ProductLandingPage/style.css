@@ -22,6 +22,7 @@ but it passes all of the tests*/
   display: flex;
   flex-direction: row;
   border-style: solid;
+  align-items: center;
 }
 #header-img {
   width: 50px;
@@ -32,9 +33,10 @@ h1 {
   border-style: solid;
 }
 #nav-bar {
-  top: 0px;
-  position: fixed;
   border-style: solid;
+}
+#nav-link {
+
 }
 #video {
   border-style: solid;
