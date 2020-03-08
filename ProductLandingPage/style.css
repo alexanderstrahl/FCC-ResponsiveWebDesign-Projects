@@ -2,15 +2,13 @@
 but it passes all of the tests*/
 #main {
   display: flex;
-  background-color: white;
-  border-color: black;
-  border-radius: 1px;
+  background-color: inherit;
   color: inherit;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  border-style: solid;
+  margin: 10px;
 }
 @media {
 
@@ -21,33 +19,41 @@ but it passes all of the tests*/
   padding: 20px;
   display: flex;
   flex-direction: row;
-  border-style: solid;
   align-items: center;
 }
 #header-img {
   width: 50px;
   height: 50px;
-  border-style: solid;
+
 }
 h1 {
-  border-style: solid;
+  margin: 20px;
 }
 #nav-bar {
-  border-style: solid;
+
 }
 #nav-link {
 
 }
+a {
+  font-family: Calibri, sans-serif, helvetica;
+  font-style: normal;
+  text-decoration: none;
+  color: blue;
+  background-color: inherit;
+  font-size: 15pt;
+  padding: 5px;
+}
 #video {
-  border-style: solid;
+
 }
 /*https://www.youtube.com/watch?v=udxR5rBq_Vg*/
 #form {
-  border-style: solid;
+
 }
 #email {
-  border-style: solid;
+
 }
 #submit {
-  border-style: solid;
+
 }
