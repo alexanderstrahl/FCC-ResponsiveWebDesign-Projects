@@ -11,26 +11,31 @@ h1 {
 }
 #main-doc {
   display: grid;
+  grid-template-areas: 'nav march_plan'
+                       'nav april_plan'
+                       'nav may_plan'
+                       'nav goals_2020'
+                       'nav beyond_2020';
 }
 nav {
-
+  grid-area: nav;
 }
-#main-section {
-  grid-area: main;
+.main-section {
 }
 
-#march_plan {
+#march_plan {}
+#april_plan {}
+#may_plan {}
+#goals_2020 {}
+#beyond_2020 {}
 
-}
-#april_plan {
-
-}
-#may_plan {
-
-}
-#goals_2020 {
-
-}
-#beyond_2020 {
-
+@media (max-width: 800px) {
+  #main-doc {
+    grid-template-areas: 'nav'
+                         'march_plan'
+                         'april_plan'
+                         'may_plan'
+                         'goals_2020'
+                         'beyond_2020';
+  }
 }
