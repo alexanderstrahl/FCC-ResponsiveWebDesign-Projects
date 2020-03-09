@@ -1,0 +1,36 @@
+body {
+  font-family: calibri, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  background-color: inherit;
+  font-size: 40px;
+  color: #373fff;
+}
+#main-doc {
+  display: grid;
+}
+nav {
+
+}
+#main-section {
+  grid-area: main;
+}
+
+#march_plan {
+
+}
+#april_plan {
+
+}
+#may_plan {
+
+}
+#goals_2020 {
+
+}
+#beyond_2020 {
+
+}
