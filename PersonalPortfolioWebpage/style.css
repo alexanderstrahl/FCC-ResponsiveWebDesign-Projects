@@ -1,0 +1,25 @@
+body {
+  align-items: center;
+  text-align: center;
+}
+
+#main-doc {
+  display: grid;
+  grid-template-areas: 'nav'
+                       'welcome'
+                       'projects';
+}
+#welcome-section {
+  grid-area: welcome;
+  height: 100vh;
+}
+nav {
+  grid-area: nav;
+  background-color: black;
+  color: white;
+  align-items: center;
+  text-decoration: none;
+}
+@media (max-width: 800px) {
+
+}
