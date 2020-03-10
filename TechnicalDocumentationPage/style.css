@@ -11,15 +11,15 @@ h1 {
 }
 #main-doc {
   display: grid;
-  grid-template-areas: '. nav march_plan .'
-                       '. nav april_plan .'
-                       '. nav may_plan .'
-                       '. nav goals_2020 .'
-                       '. nav beyond_2020 .';
+  grid-template-areas: '. navbar March_Plan .'
+                       '. navbar April_Plan .'
+                       '. navbar May_Plan .'
+                       '. navbar Goals_2020 .'
+                       '. navbar Beyond_2020 .';
 }
-nav {
+#navbar {
   background-color: lightgray;
-  grid-area: nav;
+  grid-area: navbar;
   padding: 10px;
   margin-right: 30px;
   right: 0px;
@@ -39,22 +39,22 @@ nav {
   left: 0px;
 }
 
-#march_plan {grid-area: march_plan;}
-#april_plan {grid-area: april_plan;}
-#may_plan {grid-area: may_plan;}
-#goals_2020 {grid-area: goals_2020;}
-#beyond_2020 {grid-area: beyond_2020;}
+#March_Plan {grid-area: March_Plan;}
+#April_Plan {grid-area: April_Plan;}
+#May_Plan {grid-area: May_Plan;}
+#Goals_2020 {grid-area: Goals_2020;}
+#Beyond_2020 {grid-area: Beyond_2020;}
 
 @media (max-width: 800px) {
   #main-doc {
-    grid-template-areas: 'nav'
-                         'march_plan'
-                         'april_plan'
-                         'may_plan'
-                         'goals_2020'
-                         'beyond_2020';
+    grid-template-areas: 'navbar'
+                         'March_Plan'
+                         'April_Plan'
+                         'May_Plan'
+                         'Goals_2020'
+                         'Beyond_2020';
   }
-  nav {
+  #navbar {
     position: inherit;
     max-width: 1000000px;
   }
