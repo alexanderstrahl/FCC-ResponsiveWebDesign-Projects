@@ -7,14 +7,24 @@ body {
 #main-doc {
   display: grid;
   grid-template-areas: 'nav nav nav'
-                       'projects welcome . '
-                       'projects footer footer';
+                       'welcome welcome welcome'
+                       'projects projects projects';
 }
 #welcome-section {
   grid-area: welcome;
   height: 100vh;
   text-align: center;
-  padding: 70px 0px;
+}
+#projects {
+  grid-area: projects;
+  background-color: lightgray;
+  opacity: 80%;
+  color: inherit;
+  /* max-width: 200px; */
+}
+#margin {
+  grid-area: margin;
+  width: 25%;
 }
 nav {
   grid-area: nav;
@@ -31,15 +41,12 @@ nav {
                          'projects';
   }
   #projects {
+    display: grid;
+    grid-template-areas: 'project project'
+                         'project project'
+                         'project project';
     max-width: 100000px;
   }
-}
-#projects {
-  grid-area: projects;
-  background-color: lightgray;
-  opacity: 80%;
-  color: inherit;
-  max-width: 200px;
 }
 .dark-mode {
   background-color: black;
