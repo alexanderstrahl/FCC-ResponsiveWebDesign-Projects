@@ -28,3 +28,20 @@ nav {
   background-color: black;
   color: white;
 }
+.psychic-trip{
+    animation:mode-change 10.2s infinite;
+}
+@keyframes mode-change {
+  0% {   background-color: #FF00FF;
+         color: #663399;
+     }
+  33% { background-color: #663399;
+           color: #FF00FF;
+  }
+  66% {   background-color: #FF00FF;
+         color: #663399;
+     }
+  100% { background-color: #663399;
+         color: #FF00FF;
+  }
+}
