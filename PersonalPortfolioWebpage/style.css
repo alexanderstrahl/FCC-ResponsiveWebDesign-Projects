@@ -41,7 +41,10 @@ nav {
   66% {   background-color: #FF00FF;
          color: #663399;
      }
-  100% { background-color: #663399;
+  80% { background-color: #663399;
          color: #FF00FF;
   }
+  100% {   background-color: #FF00FF;
+         color: #663399;
+     }
 }
