@@ -1,6 +1,8 @@
 body {
   align-items: center;
   text-align: center;
+  background-color: white;
+  color: black;
 }
 
 #main-doc {
@@ -12,11 +14,11 @@ body {
 #welcome-section {
   grid-area: welcome;
   height: 100vh;
+  text-align: center;
+  padding: 70px 0px;
 }
 nav {
   grid-area: nav;
-  background-color: black;
-  color: white;
   align-items: center;
   text-decoration: none;
 }
