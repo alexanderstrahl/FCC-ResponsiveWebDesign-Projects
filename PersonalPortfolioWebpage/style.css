@@ -6,9 +6,9 @@ body {
 }
 #main-doc {
   display: grid;
-  grid-template-areas: 'nav'
-                       'welcome'
-                       'projects';
+  grid-template-areas: 'nav nav nav'
+                       'projects welcome . '
+                       'projects footer footer';
 }
 #welcome-section {
   grid-area: welcome;
@@ -21,8 +21,25 @@ nav {
   align-items: center;
   text-decoration: none;
 }
-@media (max-width: 800px) {
+#zan {
 
+}
+@media (max-width: 800px) {
+  #main-doc {
+    grid-template-areas: 'nav'
+                         'welcome'
+                         'projects';
+  }
+  #projects {
+    max-width: 100000px;
+  }
+}
+#projects {
+  grid-area: projects;
+  background-color: lightgray;
+  opacity: 80%;
+  color: inherit;
+  max-width: 200px;
 }
 .dark-mode {
   background-color: black;
