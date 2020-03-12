@@ -1,14 +1,15 @@
 body {
-  align-items: center;
-  text-align: center;
   background-color: white;
   color: black;
 }
 #main-doc {
   display: grid;
-  grid-template-areas: 'nav nav nav'
-                       'welcome welcome welcome'
-                       'projects projects projects';
+  grid-template-areas: 'nav'
+                       'welcome'
+                       'projects'
+                       'footer';
+  align-items: center;
+  text-align: center;
 }
 #welcome-section {
   grid-area: welcome;
@@ -20,11 +21,14 @@ body {
   background-color: lightgray;
   opacity: 80%;
   color: inherit;
+  display: grid;
+  grid-template-areas: 'projects-header projects-header'
+                       'projects project';
   /* max-width: 200px; */
 }
+#projects-header {grid-area: projects-header;}
 #margin {
-  grid-area: margin;
-  width: 25%;
+  background-color: red;
 }
 nav {
   grid-area: nav;
@@ -32,19 +36,25 @@ nav {
   text-decoration: none;
 }
 #zan {
-
+}
+footer {
+  background-color: gray;
+  color: inherit;
+  height: 10vh;
+  width: 100vw;
 }
 @media (max-width: 800px) {
   #main-doc {
     grid-template-areas: 'nav'
                          'welcome'
-                         'projects';
+                         'projects'
+                         'footer';
   }
   #projects {
     display: grid;
-    grid-template-areas: 'project project'
-                         'project project'
-                         'project project';
+    grid-template-areas: 'project'
+                         'project'
+                         'project';
     max-width: 100000px;
   }
 }
@@ -60,9 +70,9 @@ nav {
          color: #663399;
      }
   33% { background-color: #663399;
-           color: #FF00FF;
+           color: cyan;
   }
-  66% {   background-color: #FF00FF;
+  66% {   background-color: cyan;
          color: #663399;
      }
   80% { background-color: #663399;
