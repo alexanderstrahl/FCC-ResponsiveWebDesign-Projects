@@ -18,7 +18,7 @@ body {
 }
 #projects {
   grid-area: projects;
-  background-color: lightgray;
+  background-color: rgba(0, 204, 255, 0.712);
   opacity: 80%;
   color: inherit;
   display: grid;
@@ -27,18 +27,13 @@ body {
   /* max-width: 200px; */
 }
 #projects-header {grid-area: projects-header;}
-#margin {
-  background-color: red;
-}
 nav {
   grid-area: nav;
   align-items: center;
   text-decoration: none;
 }
-#zan {
-}
 footer {
-  background-color: gray;
+  background-color: rgba(213, 5, 255, 0.438);
   color: inherit;
   height: 10vh;
   width: 100vw;
